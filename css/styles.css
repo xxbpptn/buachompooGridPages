@@ -72,9 +72,7 @@ body {
   grid-gap: 20px;
 }
 
-.col-6 {
-  grid-column: span 2;
-}
+
 
 @media only screen and (min-width: 600px) {
   .col-s-1 {grid-column: span 1;}
@@ -91,7 +89,7 @@ body {
   .col-s-12 {grid-column: span 12;}
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   .col-1 {grid-column: span 1;}
   .col-2 {grid-column: span 2;}
   .col-3 {grid-column: span 1;}
